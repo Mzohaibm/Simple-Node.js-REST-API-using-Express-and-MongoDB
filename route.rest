@@ -1,0 +1,35 @@
+GET http://localhost:5000/user
+
+###
+
+GET  http://localhost:5000/user/12
+
+
+###
+POST http://localhost:5000/user
+
+Content-Type: application/json
+{
+    "name" : "zohaib",
+    "age" : "age",
+    "salary" : "salary",
+    "fees" : "fees",
+    "books" : ["zohaib"],
+}
+
+
+###
+DELETE  http://localhost:5000/1212
+
+
+
+
+###
+PATCH   http://localhost:5000/1212
+
+Content-Type: application/json
+
+{
+    "name" : "newname",
+    "age" : "newage",
+}
